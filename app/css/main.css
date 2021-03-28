@@ -1,0 +1,164 @@
+@media(max-width:1500px){
+  .container{
+      max-width: 1180px;
+    }
+  .header__inner{
+   justify-content: space-around;
+   height: 110px;
+  }
+  .header-logo img{
+   width: 80px;
+  }
+  .header_menu li+li{
+   padding-left: 25px;
+  }
+  .header_menu a{
+   font-size: 16px;
+  }
+  .drop-down_list a{
+   font-size: 9px;
+  }
+  .drop-down_list li{
+   padding-top:7px;
+   height: 30px;
+  }
+  .title{
+    padding-top: 120px; 
+   }
+   .upper-title {
+    margin-bottom: 190px;
+  } 
+  } 
+  @media(max-width:1200px){
+  .labs_inner{
+    justify-content: center;
+    flex-wrap: wrap;
+  } 
+  .item_footer +.item_footer{
+      margin-left: 50px;
+  }
+  }
+  @media(max-width:1100px){
+    .header_menu .menu-mobile{
+      display: block;
+    }
+  .main_inner{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .labs{
+    margin-bottom: 25px;
+  }
+  .labs_inner{
+    justify-content: center;
+  }
+  .upper-title{
+    margin-bottom: 100px;
+  }
+  .dropdown-content {
+    background-color: #081D33;
+  }
+  .dropdown-content a:hover {
+    background-color: #081D33;
+    color: #0979A6;
+    }
+   .header_menu a{
+    color: #fff;
+   }
+   .header_menu a:hover{
+    color: #FFD973;
+   }
+   .header_menu ul{
+    z-index: 3;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 110px;
+   }
+   .header_menu li{
+    padding:10px 0px;
+    background-color: #092643;
+    text-align: center;
+    display: block;
+   }
+   .header_menu li:hover{
+    background-color: #081D33;
+   }
+   .dropdown.dropbtn{
+    display: block;
+    border-bottom: inherit;
+   }
+   .dropdown-content {
+    display: none; 
+   }
+   .dropdown:hover .dropdown-content {
+    display: none;
+   }
+   .dropdown-content{
+   position: relative;
+  }
+   .title{
+    font-size: 64px;
+    line-height: 117.68%;
+    color: #021426;
+    padding-top: 100px;
+    margin-bottom: 10px;  
+   }
+  }
+  @media(max-width:950px){
+  .footer_inner{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .item_footer{
+    margin-top: 20px;
+  }
+   .main-title .title{  
+    font-size: 44px;
+    line-height: 117.68%;
+    color: #021426;
+    padding-top: 100px;
+    margin-bottom: 10px;  
+   }
+   .main-title .upper-title{
+    margin-bottom: 120px;
+  }
+   .main-title{
+    width: 540px;
+   }
+   .main_inner .text{
+    font-size: 19px;
+   }
+  }
+  @media(max-width:750px){
+  .lab_item{
+    margin-top: 38px;
+  }
+  .lab_item img{
+    width: 65px;
+  }
+   .upper-title{
+    margin-bottom: 80px;
+  } 
+  }
+  @media(max-width:550px){
+    .main-title{
+      width: 300px;
+      font-size: 50px;
+     }
+  }
+  @media(max-width:320px){
+   .main-title{
+    width: 220px;
+    padding-top: 16px;
+   }
+  }
+  
+  @media(min-width:1100px){
+    .header_menu ul{
+      display: block !important;
+    }
+  }

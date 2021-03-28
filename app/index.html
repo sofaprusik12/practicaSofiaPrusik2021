@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Рівненська лабораторія</title>
+	<!-- <link rel="stylesheet" href="scss/slick-theme.css">
+	<link rel="stylesheet" href="scss/slick.css">
+	<link rel="stylesheet" href="scss/style.css">
+	<link rel="stylesheet" href="scss/main.css"> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/main.css">	
+	<script>
+		let map;
+		function initMap() {
+		  map = new google.maps.Map(document.getElementById("map"), {
+			center: { lat: 50.6105662, lng: 26.2377179 },
+			zoom: 12,
+		  });
+		}
+	  </script>
+</head>
+<body>
+		<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header-logo">
+					<a href="#">
+						<img src="img/icons/logo_header.svg" alt="header_logo">
+					</a>
+				</div>
+				<div>				
+				<nav class="header_menu">
+					<ul>
+						<li>
+							<a href="#">Новини</a>
+						</li>
+						<li>
+							<div class="dropdown">
+  									<button class="dropbtn">Публічна інформація</button>
+  								<div class="dropdown-content">
+    							<a href="#">Інформація</a>
+    							<a href="#">Публічні закупівлі</a>
+    							<a href="#">Наукова діяльність</a>
+  								</div>
+							</div>
+						</li>				
+						<li>
+							<a href="#">Нормативна база</a>
+						</li>
+						<li>
+							<a href="#">Підрозділи</a>
+						</li>
+						<li>
+							<a href="#">Послуги</a>
+						</li>
+						<li>
+							<a href="#">Контакти</a>
+						</li>		
+					</ul>
+					<div class="menu-mobile">
+						<div class="menu-line"></div>
+						<div class="menu-line"></div>
+						<div class="menu-line"></div>
+					</div>
+				</nav>									
+			</div>
+		</div>	
+	</header>
+
+ <section class="main">
+	<div class="main-img">
+			<div class="main-title">
+				<span class="title">Рівненський обласний лабораторний центр</span>
+				<span class="upper-title">Наявність генетично-модифікованих організмів в харчових продуктах</span>
+			</div>
+			<div class="labs">
+				<div class="container">
+					<div class="labs_inner">
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/coronavirus.svg" alt="coronavirus">
+							</a>
+							<a href="#" class="lab_title">
+								Вірусологічна лабораторія
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/bacterium.svg" alt="bacterium">
+							</a>
+							<a href="#" class="lab_title">
+								Бактерологічна лабораторія
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/no-bugs.svg" alt="img/icons">
+							</a>
+							<a href="#" class="lab_title">
+								Паразитологічна лабораторія
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/Vector.svg" alt="img/icons">
+							</a>
+							<a href="#" class="lab_title">
+								Лабораторія особливо-небезпечних інфекцій
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/antiseptic.svg" alt="antiseptic">
+							</a>
+							<a href="#" class="lab_title">
+								Санітарно-гігієнічна лабораторія
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/atom.svg" alt="atom">
+							</a>	
+							<a href="#" class="lab_title">
+								Лабораторія електромагнітних полів
+							</a>
+						</div>
+						<div class="lab_item">
+							<a href="#">
+								<img src="img/icons/radiology.svg" alt="radiology">
+							</a>
+							<a href="#" class="lab_title">
+								Радіологічна лабораторія
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="main_inner">
+				<div class="item_about">
+					<h1>Про нас</h1>
+					<p class="text aboutus">Сьогодні, внаслідок послідовних  реорганізацій Держсанепідслужби в Рівненській області утворена Державна установа "Рівненський обласний лабораторний центр Міністерства охорони здоров"я  України".
+
+                    Центр утворений з метою реалізації державної політики у сфері санітарного та епідемічного благополуччя населення.
+
+                    Предметом діяльності Центру є забезпечення проведення лабораторних та інструментальних досліджень і випробувань у сфері санітарного та епідемічного благополуччя населення, здійснення заходів, спрямованих на санітарну охорону держаного кордону України, проведення розслідування причин і умов виникнення інфекційних захворювань, отруєнь, радіаційних аварій.</p>
+					<h1>Лабораторії</h1>
+					<h2>Вірусологічна лабораторія</h2>
+				    <p class="text about-labs">Єдина в області, яка має відповідну сучасну матеріально-технічну базу та дозвіл на роботу із вірусами, що належать до ІІІ-ІV групи патогенності. Лабораторія  проводить  моніторинг за циркуляцією збудників  інфекційних хвороб: вірусів сезонного грипу, пандемічного грипу, кору, краснухи, поліомієліту, інших ентеровірусних інфекцій, вірусних гепатитів А, В, С, D та ін. серед населення і в об’єктах довкілля на території області. Визначає напруженість імунітету населення до   вірусів гепатиту В, кору, поліомієліту, грипу. Лабораторія також  проводить дослідження і на договірній основі по заявах громадян, підприємств, установ, організацій. З метою вивчення циркуляції вірусів в об’єктах довкілля досліджується  питна вода, стічна вода, вода відкритих водойм. З 2007 року у складі вірусологічної лабораторії функціонує Центр молекулярної діагностики (ПЛР-лабораторія), де проводяться сучасні молекулярно-генетичні дослідження на виявлення генетичних маркерів інфекційних хвороб: нуклеїнових кислот вірусів сезонного грипу, пандемічного грипу, збудників ГРВІ, вірусних гепатитів А, В, С, D, рота вірусів, норо-, астровірусів, ентеровірусних інфекцій, папілома вірусів та ін.),  генотипування збудників вірусних гепатитів,  їх кількісне визначення. По заявах підприємств і громадян, проводяться дослідження на генетичні маркери ГМО в продуктах харчування.
+                </p>
+                <div>
+                	<a href="#" class="bottom" target="lab">
+                	Більше
+                   </a>
+                </div>
+                
+				</div>
+				<div class="item_news">
+					<h1>Події</h1>
+					<div class="news">
+						<a href="#">
+							<img src="img/news2.png" alt="">
+						</a>
+						<div class="title_date">09-10-2020</div>
+						<a href="#">
+							<div class="title_news">
+							Про прийом екстренних повідомлень від ЛПЗ Рівненської області
+						    </div>
+						</a>
+					</div>
+					<div class="news">
+						<a href="#">
+							<img src="img/news1.png" alt="">
+						</a>
+						<div class="title_date">06-09-2020</div>
+						<a href="#">
+							<div class="title_news">
+							Про зміни у режимі роботи з замовниками досліджень на COVID-19
+						    </div>
+						</a>		
+					</div>
+					<div class="news">
+						<a href="#">
+							<img src="img/news2.png" alt="">
+						</a>
+						<div class="title_date">06-09-2020</div>
+						<a href="#">
+							<div class="title_news">
+							Про прийом екстренних повідомлень від ЛПЗ Рівненської області
+						    </div>
+						</a>
+					</div>
+					<div class="news">
+						<a href="#">
+							<div class="title_news">
+							Всі новини
+						   </div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+<!-- <div id="map"></div> -->
+<iframe name="n" src="https://www.google.com/maps/d/embed?mid=12Up-0x7yKH9xX9rqHgVOydCa45bzul5I&amp;h1=uk" width="100%" height="480"></iframe>
+<section class="maps">
+				<div class="container">
+				<div class="item_maps">
+					<ul>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=12Up-0x7yKH9xX9rqHgVOydCa45bzul5I&amp;h1=uk">
+								Вода комунальних водопроводів
+						    </a>
+						</li>
+						<li>
+							<a  target="n" href="https://www.google.com/maps/d/embed?mid=12Up-0x7yKH9xX9rqHgVOydCa45bzul5I&h1=uk" class="second">
+								Вода відомчих водопроводів
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1W4VR3Vd6NOBjgjVdh-KuA44HzddDkDkA&amp;hl=uk">
+								Вода сільських водопроводів
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1pDtBTgWzS5cJ72sG1TUCopOYwbs&hl=uk" class="second">
+								Вода колодязів
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1RIdI2jPMcCuY5UhMzak4JQ2HjGlzAC5e&hl=UK">
+								Електромагнітне випромінювання
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1tl_jpjKrZJe6eeSrE2ZNCjsqP7_0gh8s&hl=uk" class="second">
+								Радіологічний моніторинг
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1u1VwtJouF6Fd2hWCVezNDF9C6XX0ya9L&hl=uk">
+								Вода поверхневих водойм
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1doAn6MaoH05EaUunIVUkJwWU0ogPnRS7&hl=uk" class="second">
+								Атмосферне повітря
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1HAQdbrbnrx79Jpap5u3D0dFmFHXFCQva&hl=uk">
+								Акустичне забруднення(шум)
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1O-jYaTin0BampDPsH9pBFHLJLqFbcTmP&hl=uk" class="second">
+								Грунт
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=12Jvzpk6NolD8MJkueDiFTA9ePkpYkkx-&hl=uk">
+								Епідемічна ситуація
+							</a>
+						</li>
+						<li>
+							<a target="n" href="https://www.google.com/maps/d/embed?mid=1KV1rozRXj7e2cJ91zb0vm3-A1jTkvUcY&hl=uk " class="second">
+								Природні джерела
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</section>
+
+	<footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                    <div class="item_footer">
+                        <img src="img/icons/footer_emblem.svg" alt="footer_emblem">
+                    </div>
+                    <div class="item_footer">
+                        <ul>
+                            <li>
+                                <p>
+                                    Телефон гарячої лінії
+                                </p>
+                                <a href="tel:+0 800 507 309">+0 800 507 309</a>
+                            </li>
+                            <li>
+                                <p>
+                                    Мобільний телефон
+                                </p>
+                                <a href="tel:+068 194 11 92">+068 194 11 92</a>
+                            </li>
+                            <li>
+                                <p>
+                                    Email
+                                </p>
+                                <a href="mailto:rivno@.com">mailto:rivno@.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item_footer fast-link">
+                        <ul>
+                            <li>
+                                <p>Швидкі посилання</p>
+                            </li>
+                            <li>
+                                <a href="#">Центр громадського здоров'я МОЗ України
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Міністерство охорони здоров'я України
+                                </a>
+                            </li>      
+                            <li>
+                                <a href="#">
+                                    Облдержадміністрація
+                                </a>
+                            </li>
+                            <li class="vacancies">
+                                <a href="#" >Вакансії</a>
+                            </li>       
+                        </ul>
+                    </div>
+                    <div class="item_footer">
+                        <ul>
+                            <li>
+                                <p>Ми в соцмережах</p>
+                            </li>
+                            <li>
+                                <ul class="sotial">
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/icons/instagram.svg" alt="instagram">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/icons/facebook.svg" alt="facebook">
+                                        </a>    
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="img/icons/telegram.svg" alt="telegram">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3YXJE2iEDvQCcjmrJ0CywGRqSNbrM-OM&callback=initMap&libraries=&v=weekly"
+      async
+	></script>
+	
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="js/main.min.js"></script>  -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script src="js/libs.min.js"></script> -->
+    <script src="js/main.min.js"></script>
+</body>
+</html>
